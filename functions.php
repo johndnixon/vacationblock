@@ -22,14 +22,17 @@ function vb_fonts_url() {
  *
  * @return void
  */
-function vb_fonts() {
+function vb_scripts() {
 
 	$fonts = vb_fonts_url();
 
+	wp_enqueue_style( 'vb-styles', get_stylesheet_uri() );
     wp_enqueue_style( 'google-fonts', $fonts, array(), null );
+	wp_enqueue_style( 'dashicons' );
+
 }
-add_action( 'wp_enqueue_scripts', 'vb_fonts' );
-add_action( 'enqueue_block_editor_assets', 'vb_fonts');
+add_action( 'wp_enqueue_scripts', 'vb_scripts' );
+add_action( 'enqueue_block_editor_assets', 'vb_scripts');
 
 
 /**

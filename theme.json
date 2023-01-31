@@ -13,6 +13,7 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultGradients": false,
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -25,12 +26,17 @@
 					"slug": "contrast"
 				},
 				{
+					"color": "#2e2e2e",
+					"name": "Dark Gray",
+					"slug": "dark-gray"
+				},
+				{
 					"color": "#0D47A0",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#060a3a",
+					"color": "#136AED",
 					"name": "Primary Shade",
 					"slug": "primary-shade"
 				},
@@ -38,6 +44,11 @@
 					"color": "#03062f",
 					"name": "Primary Shade Dark",
 					"slug": "primary-shade-dark"
+				},
+				{
+					"color": "#79cbff",
+					"name": "Primary Shade Light",
+					"slug": "primary-shade-light"
 				},
 				{
 					"color": "#F56800",
@@ -48,6 +59,13 @@
 					"color": "#F6F6F6",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--primary-shade-light) 100%)",
+					"name": "Primary Shade",
+					"slug": "primary-shade"
 				}
 			]
 		},

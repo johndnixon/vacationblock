@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Vacation Call to action
- * Slug: blocktheme/cta
+ * Slug: vacationblock/cta
  * Categories: vbbpc
  * Keywords: Call to action
  * Block Types: core/buttons
